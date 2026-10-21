@@ -10,24 +10,36 @@ https://arcadepatches.com/usf2-backport/
 
 You need this UltraSF2 patch kit and the matching World version of ssf2t.zip (non-merged).
 
-1. Right-click **UltraSF2_IPS_Conversion_Kit.zip** and select **Extract All**, then **Extract**.
+INSTRUCTIONS:
 
+WINDOWS 10/11 (64-BIT)
+
+1. Right-click this ZIP and choose "Extract All".
 2. Open the extracted folder.
+3. Double-click "UltraSF2-Patcher.exe".
+4. Drag your "ssf2t.zip" onto the box in the browser window.
+5. Wait for "Complete", then click "Save hsf2.zip".
+6. Put the saved hsf2.zip in your emulator's ROM folder.
 
-3. Right-click **START_HERE.html**. Select **Open with**, then **Microsoft Edge** or **Google Chrome**.
+Keep the small console window open until patching finishes.
+Click "Close patcher" when done.
 
-4. Drag **ssf2t.zip** into the box labeled **“Drop ssf2t.zip here.”** You can also click **Choose ZIP file** and select it.
+Internet is required on the first run. Later runs can use the encrypted
+cache in the Data folder. You can delete Data to clear that cache.
 
-5. Wait until you see **“Your Ultra ROM is ready.”**
+Use the complete Super Street Fighter II Turbo World set. If the patcher
+rejects the input, check that you selected the correct, undamaged set.
+Your original ssf2t.zip is never changed.
 
-6. Click **Save hsf2.zip**.
+The window shows "Patching ROMs" while processing. All output ROM files
+are checked against the audited build before the Save button appears.
 
-7. Place the downloaded **hsf2.zip** in your MAME **roms** folder.
+The configuration and local cache use AES-256-GCM encryption. This deters
+casual inspection; runtime data and finished ROM assets remain recoverable
+by a determined person.
 
-8. Open MAME and launch the **hsf2** ROM set.
+Validation: live download, conversion, cache and browser UI tested on Linux.
+The Windows executable was cross-compiled; native Windows launch has not
+been tested in this environment.
 
-IMPORTANT:
-- **Only extract the patch kit. Keep ssf2t.zip and hsf2.zip zipped.**
-- Keep the kit’s **assets** folder beside **START_HERE.html**.
-- If the download is named **hsf2 (1).zip**, rename it to **hsf2.zip**.
-- If the patcher rejects your ROM, check that you have the matching World version of **ssf2t.zip**. Renaming another ROM will not work.
+Licenses, corresponding source and build instructions are in Developer.
