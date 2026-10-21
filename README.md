@@ -2,6 +2,8 @@ ULTRA STREET FIGHTER II — EASY INSTALL INSTRUCTIONS
 
 **CONVERTED FROM STRYGO'S USF2 BUILD KIT w/CORRECTED INTRO**
 
+https://arcadepatches.com/usf2-backport/
+
 You need this UltraSF2 patch kit and the matching World version of ssf2t.zip (non-merged).
 
 1. Right-click **UltraSF2_IPS_Conversion_Kit.zip** and select **Extract All**, then **Extract**.
