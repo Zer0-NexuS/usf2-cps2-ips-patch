@@ -1,4 +1,6 @@
-ULTRA STREET FIGHTER II — EASY INSTALL INSTRUCTIONS (MAME ONLY) (DARKSOFT NOT TESTED)
+ULTRA STREET FIGHTER II — EASY INSTALL INSTRUCTIONS 
+**MAME ONLY BUILD: .289 Recommended**
+**CONFIRMED DARKSOFT COMPATIBLE**
 
 Full Audit completed. Optimized repeated intro calculations, changing only 21 ROM bytes. 
 All 1,042 reference frames, timing, and audio remain identical. Passed nine MAME 0.289 regression checks 
