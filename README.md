@@ -1,5 +1,9 @@
 ULTRA STREET FIGHTER II — EASY INSTALL INSTRUCTIONS
 
+Full Audit completed. Optimized repeated intro calculations, changing only 21 ROM bytes. 
+All 1,042 reference frames, timing, and audio remain identical. Passed nine MAME 0.289 regression checks 
+and extended attract and two-player tests. Physical CPS2 hardware remains untested.
+
 **CONVERTED FROM STRYGO'S USF2 BUILD KIT w/CORRECTED INTRO**
 
 https://arcadepatches.com/usf2-backport/
