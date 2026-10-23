@@ -33,7 +33,7 @@ Use the complete Super Street Fighter II Turbo World set. If the patcher
 rejects the input, check that you selected the correct, undamaged set.
 Your original ssf2t.zip is never changed.
 
-**Revision 2 Updates**
+**REVISION 2 UPDATES**
 
 UltraSF2 – Dev (CPS2, Native): Combined Update Notes
 
