@@ -42,13 +42,21 @@ This cumulative list combines our build’s corrections with Strygo’s latest i
 Evil Ryu and Violent Ken gameplay:
 
 •	Corrected super-meter checks so supers require and consume a full meter.
+
 •	Fixed conflicts between normal kicks, custom dashes and super moves.
+
 •	Corrected Violent Ken’s close-range six-hit super sequence.
+
 •	Restored Violent Ken’s dash trails and victory animations.
+
 •	Restored purple fist flames and orange burn reactions.
+
 •	Corrected Evil Ryu’s pose orientation.
+
 •	Restored Evil Ryu’s white background during the Demon combo.
+
 •	Restored Demon super-finish effects and the 10,000-point bonus.
+
 •	Added both characters to Random character selection.
 
 Character selection, portraits and HUD:
