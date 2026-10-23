@@ -35,6 +35,8 @@ Your original ssf2t.zip is never changed.
 
 **REVISION 2 UPDATES**
 
+##NOTE: THIS UPDATE CONTAINS A COMBINATION OF STRYGO'S BACKPORT, RC3 UPDATE, AS WELL AS NEON.BITCHI UPDATES AND OPTIMIZATIONS##
+
 UltraSF2 – Dev (CPS2, Native): Combined Update Notes
 
 This cumulative list combines our build’s corrections with Strygo’s latest integrated hsf2alt fixes.
