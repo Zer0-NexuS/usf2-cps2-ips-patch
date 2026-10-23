@@ -124,23 +124,37 @@ Intro and title presentation:
 Existing corrections, retained in the combined build:
 
 •	Removed the lighter box behind the FBI warning lettering.
+
 •	Corrected Ryu’s intro fireball graphics and placement between his palms.
+
 •	Prevented the ULTRA logo from appearing over warning and service screens.
+
 •	Fixed the broken animation and vertical alignment of the A in ULTRA.
+
 •	Removed the extra white flash after the logo’s white transition.
+
 •	Doubled the speed of the STREET FIGHTER II title slide.
+
 •	Restored the subtitle lettering’s colors and completed the colored bar above it.
+
 •	Corrected the ULTRA logo’s coin-in transition to fade in smoothly.
+
 •	Made the complete title fade out together.
+
 •	Restored the ULTRA logo’s progressive color-fill effect.
+
 •	Optimized native intro animation and palette handling.
+
 •	Preserved the corrected cinematic sprites, frame timing and title presentation during the Strygo integration.
 
 Game flow and service menus:
 
 •	Restored the normal Insert Coin and Free Play positions outside the title screen.
+
 •	Restored the return to attract mode after endings and credits.
+
 •	Cleared ending-specific state when credits finish so it cannot affect the next game.
+
 •	Fixed INPUT and OUTPUT service-menu navigation and return controls.
 •	Set Demo Sound to ON by default in every factory preset.
 
