@@ -2,13 +2,15 @@ ULTRA STREET FIGHTER II — EASY INSTALL INSTRUCTIONS
 **MAME ONLY BUILD: .289 Recommended**
 **CONFIRMED DARKSOFT COMPATIBLE**
 
+**I WILL NO LONGER BE UPDATING THIS BUILD FOR PUBLIC RELEASES. PLEASE TAKE ALL BUG FIXES TO STRYGO**
+
 Full Audit completed. Optimized repeated intro calculations, changing only 21 ROM bytes. 
 All 1,042 reference frames, timing, and audio remain identical. Passed nine MAME 0.289 regression checks 
 and extended attract and two-player tests. Physical CPS2 hardware remains untested.
 
 **CONVERTED FROM STRYGO'S USF2 BUILD KIT w/CORRECTED INTRO**
 
-https://arcadepatches.com/usf2-backport/
+Source of Original Backport: https://arcadepatches.com/usf2-backport/
 
 You need this UltraSF2 patch kit and the matching World version of ssf2t.zip (non-merged).
 
@@ -35,11 +37,27 @@ Your original ssf2t.zip is never changed.
 
 **REVISION 2 UPDATES**
 
-##NOTE: THIS UPDATE CONTAINS A COMBINATION OF STRYGO'S BACKPORT, RC3 UPDATE, AS WELL AS NEON.BITCHI UPDATES AND OPTIMIZATIONS##
+##NOTE: THIS UPDATE CONTAINS A COMBINATION OF STRYGO'S BACKPORT, RC3 UPDATE, AS WELL AS BITCHI UPDATES AND OPTIMIZATIONS##
 
 **UltraSF2 – Dev (CPS2, Native): COMBINED UPDATE NOTES**
 
-This cumulative list combines our build’s corrections with Strygo’s latest integrated hsf2alt fixes.
+--This cumulative list combines our build’s corrections with Strygo’s latest integrated hsf2 fixes.
+
+--Additional Bitchi fixes since the previous changelog:
+
+--Repaired Evil Ryu’s and Violent Ken’s corrupted losing and Continue portraits.
+
+--Fixed both characters’ selected portrait colors reverting after Continue.
+
+--Corrected Evil Ryu mirror matches so each player retains their independently selected portrait color.
+
+--Fixed interference between character-style icon palettes and Evil Ryu’s portrait colors.
+
+--Restored the native Hyper QSound “PERFECT” announcement for full-health wins.
+
+--Restored the complete PERFECT banner, centered below the winner text with the correct lettering and colors.
+
+--Ensured the banner clears before score tallying and that ordinary wins trigger neither PERFECT speech nor lettering.
 
 Evil Ryu and Violent Ken gameplay:
 
@@ -158,6 +176,7 @@ Game flow and service menus:
 •	Cleared ending-specific state when credits finish so it cannot affect the next game.
 
 •	Fixed INPUT and OUTPUT service-menu navigation and return controls.
+
 •	Set Demo Sound to ON by default in every factory preset.
 
-The combined build also retains NEONBitchi intro/title presentation and existing standard-character audio. Strygo’s intro/Japanese title-copyright changes and standard Ken/Chun-Li ending-music changes were excluded (because they’d already been implemented). Evil Ryu and Violent Ken’s ending audio is included.
+The combined build also retains NEONBitchi intro/title presentation and existing standard-HYPER-character audio. Evil Ryu and Violent Ken’s ending audio is included.
