@@ -8,11 +8,11 @@ Full Audit completed. Optimized repeated intro calculations, changing only 21 RO
 All 1,042 reference frames, timing, and audio remain identical. Passed nine MAME 0.289 regression checks 
 and extended attract and two-player tests. Physical CPS2 hardware remains untested.
 
-**CONVERTED FROM STRYGO'S USF2 BUILD KIT w/CORRECTED INTRO**
+**CONVERTED FROM STRYGO'S USF2 BUILD KIT. THIS IS A MORE REFINED & FINE-TUNED RELEASE**
 
-Source of Original Backport: https://arcadepatches.com/usf2-backport/
+Source of Original Backport toolkit: https://arcadepatches.com/usf2-backport/
 
-You need this UltraSF2 patch kit and the matching World version of ssf2t.zip (non-merged).
+What you need for this UltraSF2 patch kit: matching World version of ssf2t.zip (non-merged).
 
 INSTRUCTIONS:
 
