@@ -2,6 +2,8 @@ ULTRA STREET FIGHTER II (NATIVE CPS2) — EASY INSTALL INSTRUCTIONS
 **MAME BUILD: .289 Recommended**
 **CONFIRMED DARKSOFT COMPATIBLE**
 
+https://github.com/user-attachments/assets/cd63b14f-da15-4fb3-8cf1-a26d393ce70c
+-
 **I WILL NO LONGER BE UPDATING THIS BUILD FOR PUBLIC NOTIFICATION**
 
 Full Audit completed. Optimized repeated intro calculations, changing only 21 ROM bytes. 
