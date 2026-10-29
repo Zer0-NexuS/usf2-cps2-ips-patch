@@ -37,11 +37,17 @@ Use the complete Super Street Fighter II Turbo World set. If the patcher
 rejects the input, check that you selected the correct, undamaged set.
 Your original ssf2t.zip is never changed.
 
-**REVISION 2 UPDATES**
+**REVISION 5 UPDATES**
 
 ##NOTE: THIS UPDATE CONTAINS A COMBINATION OF STRYGO'S BACKPORT, RC3 UPDATE, AS WELL AS BITCHI UPDATES AND OPTIMIZATIONS##
 
 **UltraSF2 – Dev (CPS2, Native): COMBINED UPDATE NOTES**
+
+--Full debug and playthrough audits
+
+--Fixed issue related to title screen and intro
+
+--Fixed another Violent Ken palette bug connected to background defects
 
 --This cumulative list combines our build’s corrections with Strygo’s latest integrated hsf2 fixes.
 
