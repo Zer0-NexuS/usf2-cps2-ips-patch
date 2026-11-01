@@ -1,6 +1,8 @@
 ULTRA STREET FIGHTER II (NATIVE CPS2) — EASY INSTALL INSTRUCTIONS 
 **MAME BUILD: .289 Recommended**
-**CONFIRMED DARKSOFT COMPATIBLE**
+**CONFIRMED DARKSOFT / CPS2 COMPATIBLE**
+
+<img width="820" height="614" alt="image" src="https://github.com/user-attachments/assets/c21cd651-4170-4c2a-b44e-86b0ae2c3607" />
 
 https://github.com/user-attachments/assets/cd63b14f-da15-4fb3-8cf1-a26d393ce70c
 -
@@ -37,7 +39,13 @@ Use the complete Super Street Fighter II Turbo World set. If the patcher
 rejects the input, check that you selected the correct, undamaged set.
 Your original ssf2t.zip is never changed.
 
-**REVISION 5 UPDATES**
+**REVISION 6 UPDATES**
+
+--Title screen is completely fixed, and also matches original color patterns.
+
+--Fixed palette issues related to Violent Ken.
+
+--Removed ULTRA logo from sound menu.
 
 ##NOTE: THIS UPDATE CONTAINS A COMBINATION OF STRYGO'S BACKPORT, RC3 UPDATE, AS WELL AS BITCHI UPDATES AND OPTIMIZATIONS##
 
