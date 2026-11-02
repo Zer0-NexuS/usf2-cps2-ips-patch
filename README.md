@@ -1,5 +1,7 @@
 **REQUIRES THE MERGED MAME VERSION OF SSF2T.ZIP / REQUIRES THE MERGED MAME VERSION OF SSF2T.ZIP / REQUIRES THE MERGED MAME VERSION OF SSF2T.ZIP**
 
+*Extract the single file from qsound_hle.zip, and add it into your SSF2T.ZIP (MERGED SET)*
+
 <img width="820" height="614" alt="image" src="https://github.com/user-attachments/assets/c21cd651-4170-4c2a-b44e-86b0ae2c3607" />
 
 https://github.com/user-attachments/assets/cd63b14f-da15-4fb3-8cf1-a26d393ce70c
