@@ -1,13 +1,13 @@
 **REQUIRES THE MERGED MAME VERSION OF SSF2T.ZIP / REQUIRES THE MERGED MAME VERSION OF SSF2T.ZIP / REQUIRES THE MERGED MAME VERSION OF SSF2T.ZIP**
 
-ULTRA STREET FIGHTER II (NATIVE CPS2) — EASY INSTALL INSTRUCTIONS 
-**MAME BUILD: .289 Recommended**
-**CONFIRMED DARKSOFT / CPS2 COMPATIBLE**
-
 <img width="820" height="614" alt="image" src="https://github.com/user-attachments/assets/c21cd651-4170-4c2a-b44e-86b0ae2c3607" />
 
 https://github.com/user-attachments/assets/cd63b14f-da15-4fb3-8cf1-a26d393ce70c
 -
+ULTRA STREET FIGHTER II (NATIVE CPS2) — EASY INSTALL INSTRUCTIONS 
+**MAME BUILD: .289 Recommended**
+**CONFIRMED DARKSOFT / CPS2 COMPATIBLE**
+
 **I WILL NO LONGER BE UPDATING THIS BUILD FOR PUBLIC NOTIFICATION**
 
 Full Audit completed. Optimized repeated intro calculations, changing only 21 ROM bytes. 
