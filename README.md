@@ -43,160 +43,103 @@ Use the complete Super Street Fighter II Turbo World set. If the patcher
 rejects the input, check that you selected the correct, undamaged set.
 Your original ssf2t.zip is never changed.
 
-**REVISION 6 UPDATES**
-
---Title screen is completely fixed, and also matches original color patterns.
-
---Fixed palette issues related to Violent Ken.
-
---Removed ULTRA logo from sound menu.
-
-##NOTE: THIS UPDATE CONTAINS A COMBINATION OF STRYGO'S BACKPORT, RC3 UPDATE, AS WELL AS BITCHI UPDATES AND OPTIMIZATIONS##
-
-**UltraSF2 – Dev (CPS2, Native): COMBINED UPDATE NOTES**
-
---Full debug and playthrough audits
-
---Fixed issue related to title screen and intro
-
---Fixed another Violent Ken palette bug connected to background defects
-
---This cumulative list combines our build’s corrections with Strygo’s latest integrated hsf2 fixes.
-
---Additional Bitchi fixes since the previous changelog:
-
---Repaired Evil Ryu’s and Violent Ken’s corrupted losing and Continue portraits.
-
---Fixed both characters’ selected portrait colors reverting after Continue.
-
---Corrected Evil Ryu mirror matches so each player retains their independently selected portrait color.
-
---Fixed interference between character-style icon palettes and Evil Ryu’s portrait colors.
-
---Restored the native Hyper QSound “PERFECT” announcement for full-health wins.
-
---Restored the complete PERFECT banner, centered below the winner text with the correct lettering and colors.
-
---Ensured the banner clears before score tallying and that ordinary wins trigger neither PERFECT speech nor lettering.
-
-Evil Ryu and Violent Ken gameplay:
-
-•	Corrected super-meter checks so supers require and consume a full meter.
-
-•	Fixed conflicts between normal kicks, custom dashes and super moves.
-
-•	Corrected Violent Ken’s close-range six-hit super sequence.
-
-•	Restored Violent Ken’s dash trails and victory animations.
-
-•	Restored purple fist flames and orange burn reactions.
-
-•	Corrected Evil Ryu’s pose orientation.
-
-•	Restored Evil Ryu’s white background during the Demon combo.
-
-•	Restored Demon super-finish effects and the 10,000-point bonus.
-
-•	Added both characters to Random character selection.
-
-Character selection, portraits and HUD:
-
-•	Fixed the swapped Dee Jay and Balrog character selections.
-
-•	Updated Evil Ryu and Violent Ken’s character portraits, selected faces and animated defeated portraits.
-
-•	Corrected both characters’ Continue portraits and revival animations.
-
-•	Fixed portrait colors after character selection and Continue.
-
-•	Restored missing portrait blocks.
-
-•	Corrected HUD lettering and Guile/Cammy HUD colors.
-
-•	Corrected Zangief’s portrait shading.
-
-•	Restored the correct CPU opponents and portraits after another player challenges.
-
-Stages and travel:
-
-•	Fixed Cammy’s thin horizontal scrolling-line glitch.
-
-•	Corrected background gaps in Cammy, Claw, Dee Jay and Fei Long’s stages.
-
-•	Removed stray player markers during travel.
-
-•	Smoothed the stage-selection airplane movement.
-
-•	Corrected the mirrored Spain flag.
-
-•	Restored Guile’s Sonic Boom and Dee Jay’s Air Slasher colors across costume selections.
-
-Audio
-
-•	Rebuilt ordinary character voices, announcer cues, effects and music around the native Hyper Street Fighter II sound banks.
-
-•	Corrected sound routing, sample addresses, pitch and loop settings.
-
-•	Cleared unused old audio slots and unused exception-bank data.
-
-•	Corrected gameplay sound routing that could trigger the title announcement during rounds or round transitions.
-
-•	Evil Ryu and Violent Ken now use their dedicated hsf2alt gameplay voices, including heavy attacks, projectile calls, multipart supers, damage and death sounds.
-
-•	Removed the standard Ryu/Ken voice fallbacks from those two characters’ corrected voice routes.
-
-•	Applied the appropriate variant winner announcements and ending-audio mappings.
-
-•	Preserved standard Ryu and standard Ken’s corrected Hyper audio.
-
-•	Preserved the correct ULTRA intro voices, including Violent Ken’s intro voice.
-
-•	Restored the exact original ULTRA CAPCOM and 30th Anniversary splash recordings.
-
-•	Increased only the 30th Anniversary clip by 50%.
-
-•	Preserved the supplied title-announcer recording at its corrected playback speed and pitch.
-
-•	Removed the unwanted second “THE FINAL CHALLENGERS” announcement beneath the title recording.
-
-Intro and title presentation:
-
-Existing corrections, retained in the combined build:
-
-•	Removed the lighter box behind the FBI warning lettering.
-
-•	Corrected Ryu’s intro fireball graphics and placement between his palms.
-
-•	Prevented the ULTRA logo from appearing over warning and service screens.
-
-•	Fixed the broken animation and vertical alignment of the A in ULTRA.
-
-•	Removed the extra white flash after the logo’s white transition.
-
-•	Doubled the speed of the STREET FIGHTER II title slide.
-
-•	Restored the subtitle lettering’s colors and completed the colored bar above it.
-
-•	Corrected the ULTRA logo’s coin-in transition to fade in smoothly.
-
-•	Made the complete title fade out together.
-
-•	Restored the ULTRA logo’s progressive color-fill effect.
-
-•	Optimized native intro animation and palette handling.
-
-•	Preserved the corrected cinematic sprites, frame timing and title presentation during the Strygo integration.
-
-Game flow and service menus:
-
-•	Restored the normal Insert Coin and Free Play positions outside the title screen.
-
-•	Restored the return to attract mode after endings and credits.
-
-•	Cleared ending-specific state when credits finish so it cannot affect the next game.
-
-•	Fixed INPUT and OUTPUT service-menu navigation and return controls.
-
-•	Set Demo Sound to ON by default in every factory preset.
+# Ultra Street Fighter II: The Final Challengers
+**CPS2 Native Development | Revision 6 | Combined Changelog**
+
+## **REVISION 6 UPDATES**
+
+- Fully repaired the title screen and restored correct color patterns.
+- Custom pixel-art remake of Evil Ryu intro art.
+- Corrected additional Violent Ken palette issues.
+- Removed the ULTRA logo from the Sound Test menu.
+- Completed full debugging and gameplay playthrough audits.
+- Corrected remaining title-screen and intro issues.
+- Fixed an additional Violent Ken palette bug affecting background graphics.
+- Integrated Strygo's latest HSF2 fixes with Bitchi's existing corrections.
+
+## ADDITIONAL BITCHI FIXES
+
+- Repaired Evil Ryu's and Violent Ken's corrupted losing and Continue portraits.
+- Fixed both characters' selected portrait colors reverting after Continue.
+- Corrected Evil Ryu mirror matches so each player retains their independently selected portrait color.
+- Eliminated interference between character-style icon palettes and Evil Ryu's portrait colors.
+- Restored the native Hyper QSound "PERFECT" announcement for full-health victories.
+- Restored the complete PERFECT banner, properly centered beneath the winner text with accurate lettering and colors.
+- Ensured the PERFECT banner clears before score tallying and that ordinary victories trigger neither the announcement nor the banner.
+
+## EVIL RYU & VIOLENT KEN GAMEPLAY
+
+- Corrected super-meter checks so special supers require and consume a full meter.
+- Resolved conflicts between normal kicks, custom dashes, and super moves.
+- Corrected Violent Ken's close-range six-hit super sequence.
+- Restored Violent Ken's dash trails and victory animations.
+- Restored purple fist flames and orange burn reactions.
+- Corrected Evil Ryu's pose orientation.
+- Restored Evil Ryu's white background during the Demon combo.
+- Restored Demon super-finish effects and the 10,000-point bonus.
+- Added Evil Ryu and Violent Ken to Random character selection.
+
+## CHARACTER SELECTION, PORTRAITS & HUD
+
+- Fixed the swapped Dee Jay and Balrog character selections.
+- Updated Evil Ryu's and Violent Ken's character portraits, selected faces, and animated defeated portraits.
+- Corrected both characters' Continue portraits and revival animations.
+- Fixed portrait colors after character selection and Continue.
+- Restored missing portrait blocks.
+- Corrected HUD lettering and Guile/Cammy HUD colors.
+- Corrected Zangief's portrait shading.
+- Restored the correct CPU opponents and portraits after another player challenges.
+
+## STAGES & TRAVEL
+
+- Fixed Cammy's thin horizontal scrolling-line glitch.
+- Corrected background gaps in Cammy's, Claw's, Dee Jay's, and Fei Long's stages.
+- Removed stray player markers during travel.
+- Smoothed stage-selection airplane movement.
+- Corrected the mirrored Spain flag.
+- Restored Guile's Sonic Boom and Dee Jay's Air Slasher colors across costume selections.
+
+## AUDIO & QSOUND
+
+- Rebuilt standard character voices, announcer cues, sound effects, and music around the native Hyper Street Fighter II sound banks.
+- Corrected sound routing, sample addresses, pitch, and loop settings.
+- Cleared unused legacy audio slots and exception-bank data.
+- Fixed gameplay sound routing that could incorrectly trigger the title announcement during rounds or transitions.
+- Integrated Evil Ryu's and Violent Ken's dedicated `hsf2alt` gameplay voices, including heavy attacks, projectile calls, multipart supers, damage, and death sounds.
+- Removed standard Ryu/Ken voice fallbacks from Evil Ryu's and Violent Ken's corrected audio routes.
+- Applied appropriate character-variant winner announcements and ending-audio mappings.
+- Preserved standard Ryu's and Ken's corrected Hyper audio.
+- Preserved the correct ULTRA intro voices, including Violent Ken's introduction.
+- Restored the exact original ULTRA CAPCOM and 30th Anniversary splash recordings.
+- Increased only the 30th Anniversary recording's volume by 50%.
+- Preserved the supplied title-announcer recording at its corrected playback speed and pitch.
+- Removed the unwanted secondary "THE FINAL CHALLENGERS" announcement beneath the title recording.
+
+## INTRO & TITLE PRESENTATION
+
+- Removed the lighter background box behind the FBI warning lettering.
+- Corrected Ryu's intro fireball graphics and positioning between his palms.
+- Prevented the ULTRA logo from appearing over warning and service screens.
+- Fixed the broken animation and vertical alignment of the "A" in ULTRA.
+- Removed the extra white flash following the logo's white transition.
+- Doubled the speed of the STREET FIGHTER II title slide.
+- Restored subtitle lettering colors and completed the colored bar above it.
+- Corrected the ULTRA logo's coin-in transition for a smooth fade-in.
+- Ensured the complete title fades out together.
+- Restored the ULTRA logo's progressive color-fill effect.
+- Optimized native intro animation and palette handling.
+- Preserved corrected cinematic sprites, frame timing, and title presentation during Strygo's integration.
+
+## GAME FLOW & SERVICE MENUS
+
+- Restored the normal Insert Coin and Free Play prompt positions outside the title screen.
+- Restored the return to attract mode following endings and credits.
+- Cleared ending-specific states after credits to prevent interference with subsequent games.
+- Fixed INPUT and OUTPUT service-menu navigation and return controls.
+- Set Demo Sound to ON by default across all factory presets.
+
+---
+
+**Revision 6 Summary:** Cumulative integration of Bitchi's native CPS2 development fixes and Strygo's latest HSF2 corrections, covering character gameplay, palettes, portraits, audio, stage rendering, intro presentation, title-screen behavior, and service-menu functionality.
 
 The combined build also retains NEONBitchi intro/title presentation and existing standard-HYPER-character audio. Evil Ryu and Violent Ken’s ending audio is included.
