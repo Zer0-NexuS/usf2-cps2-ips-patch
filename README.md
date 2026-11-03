@@ -1,6 +1,8 @@
 **REQUIRES THE MERGED MAME VERSION OF SSF2T.ZIP / REQUIRES THE MERGED MAME VERSION OF SSF2T.ZIP / REQUIRES THE MERGED MAME VERSION OF SSF2T.ZIP**
 
-*Extract the single file from qsound_hle.zip, and add it into your SSF2T.ZIP (MERGED SET)*
+1. Extract and open ROM-Patcher.exe, replacing the old version.
+2. Choose ssf2t.zip — World 940223.
+3. Choose a save folder. Patching automatically creates hsf2.zip.
 
 <img width="820" height="614" alt="image" src="https://github.com/user-attachments/assets/c21cd651-4170-4c2a-b44e-86b0ae2c3607" />
 
